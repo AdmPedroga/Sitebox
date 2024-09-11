@@ -1,5 +1,48 @@
 body { 
-    color:rgb(255, 0, 0);
-    background: rgb(0, 0, 0)
-    
+    color: blue;
+    background: blue;
+    margin: 10px;
+    font-family: "Chakra Petch", system-ui;
+    border: solid 8px blue;
+}
+
+header{
+    border-bottom: solid 5px blue;
+    border-top: solid 5px yellow;
+    border-bottom: solid 5px white;
+    background: green;
+    padding: 5px;
+    font-size: 30px;
+    color: yellow;
+}
+
+section{
+    background: yellow;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.Texto{
+    margin-right: 70px;
+}
+
+.Videos{
+    margin-top: 20px;
+}
+
+
+h1{
+    font-size: 35px;
+}
+p{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 18px;
 }
